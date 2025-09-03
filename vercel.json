@@ -11,5 +11,11 @@
       "src": "/(.*)",
       "dest": "/app/$1"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/app/$1"
+    }
   ]
 }
