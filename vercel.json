@@ -13,9 +13,6 @@
     }
   ],
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/app/$1"
-    }
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
